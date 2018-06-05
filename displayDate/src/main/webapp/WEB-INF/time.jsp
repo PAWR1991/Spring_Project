@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+	<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+</head>
+<body>
+	<h1>Welcome to THE TIME PAGE</h1>
+    	
+	<p><c:out value="${date }"></c:out></p><br>
+	
+    <a href="/"> Home Page</a><br>
+    <a href="/date"> Click here for the DATE</a>
+	
+</body>
+</html>
